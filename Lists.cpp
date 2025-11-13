@@ -129,6 +129,7 @@ LISTE* clonerListe(LISTE *liste)
 int main()
 {
     LISTE L;
+    printf("This is an exciting session!!\n");
     LISTE* pL = (LISTE*)malloc(sizeof(LISTE));
 
     creeListe(&L , 5);
